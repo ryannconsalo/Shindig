@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54A4522333EAE61F9FB95C6A /* Pods_Shindig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68FF08A828F8AE1AA37FFC4 /* Pods_Shindig.framework */; };
+		9240D4741EF9225200F54FC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9240D4731EF9225200F54FC3 /* AppDelegate.swift */; };
+		9240D4761EF9225300F54FC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9240D4751EF9225200F54FC3 /* ViewController.swift */; };
+		9240D4791EF9225300F54FC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9240D4771EF9225300F54FC3 /* Main.storyboard */; };
+		9240D47B1EF9225300F54FC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9240D47A1EF9225300F54FC3 /* Assets.xcassets */; };
+		9240D47E1EF9225300F54FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9240D47C1EF9225300F54FC3 /* LaunchScreen.storyboard */; };
+		9240D4861EF92DA600F54FC3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9240D4851EF92DA600F54FC3 /* GoogleService-Info.plist */; };
+		A10A442A1EF944DD00DBA48B /* PlanningShindigTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A44291EF944DD00DBA48B /* PlanningShindigTableViewController.swift */; };
+		A10A442C1EF944F800DBA48B /* AttendingShindigTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A442B1EF944F800DBA48B /* AttendingShindigTableViewController.swift */; };
+		A10A44321EF9459B00DBA48B /* AddShindigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A44311EF9459B00DBA48B /* AddShindigViewController.swift */; };
+		A10A44341EF945BC00DBA48B /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A44331EF945BC00DBA48B /* ProfileTableViewController.swift */; };
+		A10A44361EF9466E00DBA48B /* HostPerspectiveOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A44351EF9466E00DBA48B /* HostPerspectiveOverviewViewController.swift */; };
+		A10A44381EF946CB00DBA48B /* HostPerspectiveSuppliesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A44371EF946CB00DBA48B /* HostPerspectiveSuppliesTableViewController.swift */; };
+		A10A443A1EF9475900DBA48B /* InviteePerspectiveOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A44391EF9475900DBA48B /* InviteePerspectiveOverviewViewController.swift */; };
+		A10A443C1EF9479900DBA48B /* InviteePerspectiveSuppliesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A443B1EF9479900DBA48B /* InviteePerspectiveSuppliesTableViewController.swift */; };
+		A10A443E1EF9482000DBA48B /* InviteFriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A443D1EF9482000DBA48B /* InviteFriendsTableViewController.swift */; };
+		A10A44401EF9488E00DBA48B /* AddSuppliesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A443F1EF9488E00DBA48B /* AddSuppliesTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9240D4701EF9225200F54FC3 /* Shindig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shindig.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9240D4731EF9225200F54FC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9240D4751EF9225200F54FC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9240D4781EF9225300F54FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9240D47A1EF9225300F54FC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9240D47D1EF9225300F54FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9240D47F1EF9225300F54FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9240D4851EF92DA600F54FC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A10A44291EF944DD00DBA48B /* PlanningShindigTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanningShindigTableViewController.swift; sourceTree = "<group>"; };
+		A10A442B1EF944F800DBA48B /* AttendingShindigTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendingShindigTableViewController.swift; sourceTree = "<group>"; };
+		A10A44311EF9459B00DBA48B /* AddShindigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddShindigViewController.swift; sourceTree = "<group>"; };
+		A10A44331EF945BC00DBA48B /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		A10A44351EF9466E00DBA48B /* HostPerspectiveOverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostPerspectiveOverviewViewController.swift; sourceTree = "<group>"; };
+		A10A44371EF946CB00DBA48B /* HostPerspectiveSuppliesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostPerspectiveSuppliesTableViewController.swift; sourceTree = "<group>"; };
+		A10A44391EF9475900DBA48B /* InviteePerspectiveOverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteePerspectiveOverviewViewController.swift; sourceTree = "<group>"; };
+		A10A443B1EF9479900DBA48B /* InviteePerspectiveSuppliesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteePerspectiveSuppliesTableViewController.swift; sourceTree = "<group>"; };
+		A10A443D1EF9482000DBA48B /* InviteFriendsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteFriendsTableViewController.swift; sourceTree = "<group>"; };
+		A10A443F1EF9488E00DBA48B /* AddSuppliesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSuppliesTableViewController.swift; sourceTree = "<group>"; };
+		A68FF08A828F8AE1AA37FFC4 /* Pods_Shindig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shindig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE5B05BCCE1816641D96F01 /* Pods-Shindig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shindig.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shindig/Pods-Shindig.release.xcconfig"; sourceTree = "<group>"; };
+		F9390088347DB272ED86A611 /* Pods-Shindig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shindig.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shindig/Pods-Shindig.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9240D46D1EF9225200F54FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A4522333EAE61F9FB95C6A /* Pods_Shindig.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BE28091E533E4C09ABD6C0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9390088347DB272ED86A611 /* Pods-Shindig.debug.xcconfig */,
+				AFE5B05BCCE1816641D96F01 /* Pods-Shindig.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		908A3FF3D41A20ED95F5D1BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A68FF08A828F8AE1AA37FFC4 /* Pods_Shindig.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9240D4671EF9225200F54FC3 = {
+			isa = PBXGroup;
+			children = (
+				9240D4721EF9225200F54FC3 /* Shindig */,
+				9240D4711EF9225200F54FC3 /* Products */,
+				7BE28091E533E4C09ABD6C0F /* Pods */,
+				908A3FF3D41A20ED95F5D1BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9240D4711EF9225200F54FC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9240D4701EF9225200F54FC3 /* Shindig.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9240D4721EF9225200F54FC3 /* Shindig */ = {
+			isa = PBXGroup;
+			children = (
+				9240D4731EF9225200F54FC3 /* AppDelegate.swift */,
+				9240D4751EF9225200F54FC3 /* ViewController.swift */,
+				A10A44291EF944DD00DBA48B /* PlanningShindigTableViewController.swift */,
+				A10A442B1EF944F800DBA48B /* AttendingShindigTableViewController.swift */,
+				A10A44311EF9459B00DBA48B /* AddShindigViewController.swift */,
+				A10A44331EF945BC00DBA48B /* ProfileTableViewController.swift */,
+				A10A44351EF9466E00DBA48B /* HostPerspectiveOverviewViewController.swift */,
+				A10A44371EF946CB00DBA48B /* HostPerspectiveSuppliesTableViewController.swift */,
+				A10A44391EF9475900DBA48B /* InviteePerspectiveOverviewViewController.swift */,
+				A10A443B1EF9479900DBA48B /* InviteePerspectiveSuppliesTableViewController.swift */,
+				A10A443D1EF9482000DBA48B /* InviteFriendsTableViewController.swift */,
+				A10A443F1EF9488E00DBA48B /* AddSuppliesTableViewController.swift */,
+				9240D4771EF9225300F54FC3 /* Main.storyboard */,
+				9240D47A1EF9225300F54FC3 /* Assets.xcassets */,
+				9240D47C1EF9225300F54FC3 /* LaunchScreen.storyboard */,
+				9240D4851EF92DA600F54FC3 /* GoogleService-Info.plist */,
+				9240D47F1EF9225300F54FC3 /* Info.plist */,
+			);
+			path = Shindig;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9240D46F1EF9225200F54FC3 /* Shindig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9240D4821EF9225300F54FC3 /* Build configuration list for PBXNativeTarget "Shindig" */;
+			buildPhases = (
+				819591A69DB601F815D7F5C8 /* [CP] Check Pods Manifest.lock */,
+				9240D46C1EF9225200F54FC3 /* Sources */,
+				9240D46D1EF9225200F54FC3 /* Frameworks */,
+				9240D46E1EF9225200F54FC3 /* Resources */,
+				359F596636A0D2009C0EE495 /* [CP] Embed Pods Frameworks */,
+				3C0012215865BD4268FF4471 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shindig;
+			productName = Shindig;
+			productReference = 9240D4701EF9225200F54FC3 /* Shindig.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9240D4681EF9225200F54FC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ryann Consalo";
+				TargetAttributes = {
+					9240D46F1EF9225200F54FC3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UCW2RBA58C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9240D46B1EF9225200F54FC3 /* Build configuration list for PBXProject "Shindig" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9240D4671EF9225200F54FC3;
+			productRefGroup = 9240D4711EF9225200F54FC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9240D46F1EF9225200F54FC3 /* Shindig */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9240D46E1EF9225200F54FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9240D47E1EF9225300F54FC3 /* LaunchScreen.storyboard in Resources */,
+				9240D4861EF92DA600F54FC3 /* GoogleService-Info.plist in Resources */,
+				9240D47B1EF9225300F54FC3 /* Assets.xcassets in Resources */,
+				9240D4791EF9225300F54FC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		359F596636A0D2009C0EE495 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shindig/Pods-Shindig-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C0012215865BD4268FF4471 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shindig/Pods-Shindig-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		819591A69DB601F815D7F5C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9240D46C1EF9225200F54FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10A44361EF9466E00DBA48B /* HostPerspectiveOverviewViewController.swift in Sources */,
+				A10A44341EF945BC00DBA48B /* ProfileTableViewController.swift in Sources */,
+				9240D4761EF9225300F54FC3 /* ViewController.swift in Sources */,
+				A10A442A1EF944DD00DBA48B /* PlanningShindigTableViewController.swift in Sources */,
+				9240D4741EF9225200F54FC3 /* AppDelegate.swift in Sources */,
+				A10A443A1EF9475900DBA48B /* InviteePerspectiveOverviewViewController.swift in Sources */,
+				A10A443C1EF9479900DBA48B /* InviteePerspectiveSuppliesTableViewController.swift in Sources */,
+				A10A443E1EF9482000DBA48B /* InviteFriendsTableViewController.swift in Sources */,
+				A10A44401EF9488E00DBA48B /* AddSuppliesTableViewController.swift in Sources */,
+				A10A44321EF9459B00DBA48B /* AddShindigViewController.swift in Sources */,
+				A10A442C1EF944F800DBA48B /* AttendingShindigTableViewController.swift in Sources */,
+				A10A44381EF946CB00DBA48B /* HostPerspectiveSuppliesTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9240D4771EF9225300F54FC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9240D4781EF9225300F54FC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9240D47C1EF9225300F54FC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9240D47D1EF9225300F54FC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9240D4801EF9225300F54FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9240D4811EF9225300F54FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9240D4831EF9225300F54FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9390088347DB272ED86A611 /* Pods-Shindig.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UCW2RBA58C;
+				INFOPLIST_FILE = Shindig/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryann-Consalo.Shindig";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9240D4841EF9225300F54FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFE5B05BCCE1816641D96F01 /* Pods-Shindig.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UCW2RBA58C;
+				INFOPLIST_FILE = Shindig/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryann-Consalo.Shindig";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9240D46B1EF9225200F54FC3 /* Build configuration list for PBXProject "Shindig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9240D4801EF9225300F54FC3 /* Debug */,
+				9240D4811EF9225300F54FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9240D4821EF9225300F54FC3 /* Build configuration list for PBXNativeTarget "Shindig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9240D4831EF9225300F54FC3 /* Debug */,
+				9240D4841EF9225300F54FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9240D4681EF9225200F54FC3 /* Project object */;
+}
