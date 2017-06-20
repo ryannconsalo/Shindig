@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54A4522333EAE61F9FB95C6A /* Pods_Shindig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68FF08A828F8AE1AA37FFC4 /* Pods_Shindig.framework */; };
 		9240D4741EF9225200F54FC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9240D4731EF9225200F54FC3 /* AppDelegate.swift */; };
 		9240D4761EF9225300F54FC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9240D4751EF9225200F54FC3 /* ViewController.swift */; };
 		9240D4791EF9225300F54FC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9240D4771EF9225300F54FC3 /* Main.storyboard */; };
 		9240D47B1EF9225300F54FC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9240D47A1EF9225300F54FC3 /* Assets.xcassets */; };
 		9240D47E1EF9225300F54FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9240D47C1EF9225300F54FC3 /* LaunchScreen.storyboard */; };
+		9240D4861EF92DA600F54FC3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9240D4851EF92DA600F54FC3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,10 @@
 		9240D47A1EF9225300F54FC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9240D47D1EF9225300F54FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9240D47F1EF9225300F54FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9240D4851EF92DA600F54FC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A68FF08A828F8AE1AA37FFC4 /* Pods_Shindig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shindig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE5B05BCCE1816641D96F01 /* Pods-Shindig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shindig.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shindig/Pods-Shindig.release.xcconfig"; sourceTree = "<group>"; };
+		F9390088347DB272ED86A611 /* Pods-Shindig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shindig.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shindig/Pods-Shindig.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54A4522333EAE61F9FB95C6A /* Pods_Shindig.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BE28091E533E4C09ABD6C0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9390088347DB272ED86A611 /* Pods-Shindig.debug.xcconfig */,
+				AFE5B05BCCE1816641D96F01 /* Pods-Shindig.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		908A3FF3D41A20ED95F5D1BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A68FF08A828F8AE1AA37FFC4 /* Pods_Shindig.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9240D4671EF9225200F54FC3 = {
 			isa = PBXGroup;
 			children = (
 				9240D4721EF9225200F54FC3 /* Shindig */,
 				9240D4711EF9225200F54FC3 /* Products */,
+				7BE28091E533E4C09ABD6C0F /* Pods */,
+				908A3FF3D41A20ED95F5D1BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +85,7 @@
 				9240D4771EF9225300F54FC3 /* Main.storyboard */,
 				9240D47A1EF9225300F54FC3 /* Assets.xcassets */,
 				9240D47C1EF9225300F54FC3 /* LaunchScreen.storyboard */,
+				9240D4851EF92DA600F54FC3 /* GoogleService-Info.plist */,
 				9240D47F1EF9225300F54FC3 /* Info.plist */,
 			);
 			path = Shindig;
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9240D4821EF9225300F54FC3 /* Build configuration list for PBXNativeTarget "Shindig" */;
 			buildPhases = (
+				819591A69DB601F815D7F5C8 /* [CP] Check Pods Manifest.lock */,
 				9240D46C1EF9225200F54FC3 /* Sources */,
 				9240D46D1EF9225200F54FC3 /* Frameworks */,
 				9240D46E1EF9225200F54FC3 /* Resources */,
+				359F596636A0D2009C0EE495 /* [CP] Embed Pods Frameworks */,
+				3C0012215865BD4268FF4471 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +126,7 @@
 				TargetAttributes = {
 					9240D46F1EF9225200F54FC3 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8T292GBJ5W;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,12 +155,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				9240D47E1EF9225300F54FC3 /* LaunchScreen.storyboard in Resources */,
+				9240D4861EF92DA600F54FC3 /* GoogleService-Info.plist in Resources */,
 				9240D47B1EF9225300F54FC3 /* Assets.xcassets in Resources */,
 				9240D4791EF9225300F54FC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		359F596636A0D2009C0EE495 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shindig/Pods-Shindig-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C0012215865BD4268FF4471 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shindig/Pods-Shindig-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		819591A69DB601F815D7F5C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9240D46C1EF9225200F54FC3 /* Sources */ = {
@@ -260,8 +340,10 @@
 		};
 		9240D4831EF9225300F54FC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9390088347DB272ED86A611 /* Pods-Shindig.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8T292GBJ5W;
 				INFOPLIST_FILE = Shindig/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ryann-Consalo.Shindig";
@@ -272,8 +354,10 @@
 		};
 		9240D4841EF9225300F54FC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFE5B05BCCE1816641D96F01 /* Pods-Shindig.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8T292GBJ5W;
 				INFOPLIST_FILE = Shindig/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ryann-Consalo.Shindig";
@@ -301,6 +385,7 @@
 				9240D4841EF9225300F54FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
