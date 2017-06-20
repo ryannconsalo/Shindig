@@ -1,5 +1,5 @@
 //
-//  HostPerspectiveSuppliesTableViewController.swift
+//  HPSuppliesTableViewController.swift
 //  Shindig
 //
 //  Created by Emily Koagedal on 6/20/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HostPerspectiveSuppliesTableViewController: UITableViewController {
+class HPSuppliesTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

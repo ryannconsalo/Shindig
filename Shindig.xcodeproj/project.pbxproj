@@ -18,10 +18,10 @@
 		A10A442C1EF944F800DBA48B /* AttendingShindigTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A442B1EF944F800DBA48B /* AttendingShindigTableViewController.swift */; };
 		A10A44321EF9459B00DBA48B /* AddShindigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A44311EF9459B00DBA48B /* AddShindigViewController.swift */; };
 		A10A44341EF945BC00DBA48B /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A44331EF945BC00DBA48B /* ProfileTableViewController.swift */; };
-		A10A44361EF9466E00DBA48B /* HostPerspectiveOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A44351EF9466E00DBA48B /* HostPerspectiveOverviewViewController.swift */; };
-		A10A44381EF946CB00DBA48B /* HostPerspectiveSuppliesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A44371EF946CB00DBA48B /* HostPerspectiveSuppliesTableViewController.swift */; };
-		A10A443A1EF9475900DBA48B /* InviteePerspectiveOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A44391EF9475900DBA48B /* InviteePerspectiveOverviewViewController.swift */; };
-		A10A443C1EF9479900DBA48B /* InviteePerspectiveSuppliesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A443B1EF9479900DBA48B /* InviteePerspectiveSuppliesTableViewController.swift */; };
+		A10A44361EF9466E00DBA48B /* HPOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A44351EF9466E00DBA48B /* HPOverviewViewController.swift */; };
+		A10A44381EF946CB00DBA48B /* HPSuppliesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A44371EF946CB00DBA48B /* HPSuppliesTableViewController.swift */; };
+		A10A443A1EF9475900DBA48B /* IPOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A44391EF9475900DBA48B /* IPOverviewViewController.swift */; };
+		A10A443C1EF9479900DBA48B /* IPSuppliesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A443B1EF9479900DBA48B /* IPSuppliesTableViewController.swift */; };
 		A10A443E1EF9482000DBA48B /* InviteFriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A443D1EF9482000DBA48B /* InviteFriendsTableViewController.swift */; };
 		A10A44401EF9488E00DBA48B /* AddSuppliesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A443F1EF9488E00DBA48B /* AddSuppliesTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -39,10 +39,10 @@
 		A10A442B1EF944F800DBA48B /* AttendingShindigTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendingShindigTableViewController.swift; sourceTree = "<group>"; };
 		A10A44311EF9459B00DBA48B /* AddShindigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddShindigViewController.swift; sourceTree = "<group>"; };
 		A10A44331EF945BC00DBA48B /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
-		A10A44351EF9466E00DBA48B /* HostPerspectiveOverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostPerspectiveOverviewViewController.swift; sourceTree = "<group>"; };
-		A10A44371EF946CB00DBA48B /* HostPerspectiveSuppliesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostPerspectiveSuppliesTableViewController.swift; sourceTree = "<group>"; };
-		A10A44391EF9475900DBA48B /* InviteePerspectiveOverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteePerspectiveOverviewViewController.swift; sourceTree = "<group>"; };
-		A10A443B1EF9479900DBA48B /* InviteePerspectiveSuppliesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteePerspectiveSuppliesTableViewController.swift; sourceTree = "<group>"; };
+		A10A44351EF9466E00DBA48B /* HPOverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPOverviewViewController.swift; sourceTree = "<group>"; };
+		A10A44371EF946CB00DBA48B /* HPSuppliesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPSuppliesTableViewController.swift; sourceTree = "<group>"; };
+		A10A44391EF9475900DBA48B /* IPOverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPOverviewViewController.swift; sourceTree = "<group>"; };
+		A10A443B1EF9479900DBA48B /* IPSuppliesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPSuppliesTableViewController.swift; sourceTree = "<group>"; };
 		A10A443D1EF9482000DBA48B /* InviteFriendsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteFriendsTableViewController.swift; sourceTree = "<group>"; };
 		A10A443F1EF9488E00DBA48B /* AddSuppliesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSuppliesTableViewController.swift; sourceTree = "<group>"; };
 		A68FF08A828F8AE1AA37FFC4 /* Pods_Shindig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shindig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,24 +101,64 @@
 			isa = PBXGroup;
 			children = (
 				9240D4731EF9225200F54FC3 /* AppDelegate.swift */,
-				9240D4751EF9225200F54FC3 /* ViewController.swift */,
-				A10A44291EF944DD00DBA48B /* PlanningShindigTableViewController.swift */,
-				A10A442B1EF944F800DBA48B /* AttendingShindigTableViewController.swift */,
-				A10A44311EF9459B00DBA48B /* AddShindigViewController.swift */,
-				A10A44331EF945BC00DBA48B /* ProfileTableViewController.swift */,
-				A10A44351EF9466E00DBA48B /* HostPerspectiveOverviewViewController.swift */,
-				A10A44371EF946CB00DBA48B /* HostPerspectiveSuppliesTableViewController.swift */,
-				A10A44391EF9475900DBA48B /* InviteePerspectiveOverviewViewController.swift */,
-				A10A443B1EF9479900DBA48B /* InviteePerspectiveSuppliesTableViewController.swift */,
-				A10A443D1EF9482000DBA48B /* InviteFriendsTableViewController.swift */,
-				A10A443F1EF9488E00DBA48B /* AddSuppliesTableViewController.swift */,
 				9240D4771EF9225300F54FC3 /* Main.storyboard */,
+				A10A44471EF9507000DBA48B /* Profile */,
+				A10A44461EF9505B00DBA48B /* Add Shindig */,
+				A10A44451EF9505100DBA48B /* Login */,
+				A10A44441EF9503400DBA48B /* Planning Shindig */,
+				A10A44431EF9500B00DBA48B /* Attending Shindig */,
 				9240D47A1EF9225300F54FC3 /* Assets.xcassets */,
 				9240D47C1EF9225300F54FC3 /* LaunchScreen.storyboard */,
 				9240D4851EF92DA600F54FC3 /* GoogleService-Info.plist */,
 				9240D47F1EF9225300F54FC3 /* Info.plist */,
 			);
 			path = Shindig;
+			sourceTree = "<group>";
+		};
+		A10A44431EF9500B00DBA48B /* Attending Shindig */ = {
+			isa = PBXGroup;
+			children = (
+				A10A442B1EF944F800DBA48B /* AttendingShindigTableViewController.swift */,
+				A10A44391EF9475900DBA48B /* IPOverviewViewController.swift */,
+				A10A443B1EF9479900DBA48B /* IPSuppliesTableViewController.swift */,
+			);
+			name = "Attending Shindig";
+			sourceTree = "<group>";
+		};
+		A10A44441EF9503400DBA48B /* Planning Shindig */ = {
+			isa = PBXGroup;
+			children = (
+				A10A44291EF944DD00DBA48B /* PlanningShindigTableViewController.swift */,
+				A10A44351EF9466E00DBA48B /* HPOverviewViewController.swift */,
+				A10A44371EF946CB00DBA48B /* HPSuppliesTableViewController.swift */,
+			);
+			name = "Planning Shindig";
+			sourceTree = "<group>";
+		};
+		A10A44451EF9505100DBA48B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9240D4751EF9225200F54FC3 /* ViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		A10A44461EF9505B00DBA48B /* Add Shindig */ = {
+			isa = PBXGroup;
+			children = (
+				A10A443F1EF9488E00DBA48B /* AddSuppliesTableViewController.swift */,
+				A10A44311EF9459B00DBA48B /* AddShindigViewController.swift */,
+				A10A443D1EF9482000DBA48B /* InviteFriendsTableViewController.swift */,
+			);
+			name = "Add Shindig";
+			sourceTree = "<group>";
+		};
+		A10A44471EF9507000DBA48B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A10A44331EF945BC00DBA48B /* ProfileTableViewController.swift */,
+			);
+			name = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,18 +286,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10A44361EF9466E00DBA48B /* HostPerspectiveOverviewViewController.swift in Sources */,
+				A10A44361EF9466E00DBA48B /* HPOverviewViewController.swift in Sources */,
 				A10A44341EF945BC00DBA48B /* ProfileTableViewController.swift in Sources */,
 				9240D4761EF9225300F54FC3 /* ViewController.swift in Sources */,
 				A10A442A1EF944DD00DBA48B /* PlanningShindigTableViewController.swift in Sources */,
 				9240D4741EF9225200F54FC3 /* AppDelegate.swift in Sources */,
-				A10A443A1EF9475900DBA48B /* InviteePerspectiveOverviewViewController.swift in Sources */,
-				A10A443C1EF9479900DBA48B /* InviteePerspectiveSuppliesTableViewController.swift in Sources */,
+				A10A443A1EF9475900DBA48B /* IPOverviewViewController.swift in Sources */,
+				A10A443C1EF9479900DBA48B /* IPSuppliesTableViewController.swift in Sources */,
 				A10A443E1EF9482000DBA48B /* InviteFriendsTableViewController.swift in Sources */,
 				A10A44401EF9488E00DBA48B /* AddSuppliesTableViewController.swift in Sources */,
 				A10A44321EF9459B00DBA48B /* AddShindigViewController.swift in Sources */,
 				A10A442C1EF944F800DBA48B /* AttendingShindigTableViewController.swift in Sources */,
-				A10A44381EF946CB00DBA48B /* HostPerspectiveSuppliesTableViewController.swift in Sources */,
+				A10A44381EF946CB00DBA48B /* HPSuppliesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

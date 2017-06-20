@@ -1,5 +1,5 @@
 //
-//  HostPerspectiveOverviewViewController.swift
+//  IPOverviewViewController.swift
 //  Shindig
 //
 //  Created by Emily Koagedal on 6/20/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HostPerspectiveOverviewViewController: UIViewController {
+class IPOverviewViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

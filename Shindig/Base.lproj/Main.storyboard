@@ -59,10 +59,10 @@
             </objects>
             <point key="canvasLocation" x="3775.1999999999998" y="-818.14092953523243"/>
         </scene>
-        <!--Host Perspective Overview View Controller-->
+        <!--Overview View Controller-->
         <scene sceneID="sIO-uA-FDv">
             <objects>
-                <viewController id="08n-ce-d4i" customClass="HostPerspectiveOverviewViewController" customModule="Shindig" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="08n-ce-d4i" customClass="HPOverviewViewController" customModule="Shindig" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Fzw-p2-awp"/>
                         <viewControllerLayoutGuide type="bottom" id="Uar-K0-q9F"/>
@@ -87,10 +87,10 @@
             </objects>
             <point key="canvasLocation" x="4642.3999999999996" y="-811.84407796101959"/>
         </scene>
-        <!--Host Perspective Supplies Table View Controller-->
+        <!--Supplies Table View Controller-->
         <scene sceneID="gAa-tb-EdA">
             <objects>
-                <tableViewController id="Pnr-vy-NW9" customClass="HostPerspectiveSuppliesTableViewController" customModule="Shindig" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Pnr-vy-NW9" customClass="HPSuppliesTableViewController" customModule="Shindig" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="GgG-2v-wdV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -156,10 +156,10 @@
             </objects>
             <point key="canvasLocation" x="3775" y="-146"/>
         </scene>
-        <!--Invitee Perspective Overview View Controller-->
+        <!--Overview View Controller-->
         <scene sceneID="UTB-oP-h4K">
             <objects>
-                <viewController id="KMA-Tz-oLk" customClass="InviteePerspectiveOverviewViewController" customModule="Shindig" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="KMA-Tz-oLk" customClass="IPOverviewViewController" customModule="Shindig" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="r8o-hz-P5C"/>
                         <viewControllerLayoutGuide type="bottom" id="oqa-yN-cJz"/>
@@ -184,10 +184,10 @@
             </objects>
             <point key="canvasLocation" x="4646" y="-150"/>
         </scene>
-        <!--Invitee Perspective Supplies Table View Controller-->
+        <!--Supplies Table View Controller-->
         <scene sceneID="XWa-oT-3HZ">
             <objects>
-                <tableViewController id="Jbq-3M-flc" customClass="InviteePerspectiveSuppliesTableViewController" customModule="Shindig" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Jbq-3M-flc" customClass="IPSuppliesTableViewController" customModule="Shindig" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="GNT-os-y9e">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

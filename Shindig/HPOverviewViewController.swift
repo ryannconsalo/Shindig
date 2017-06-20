@@ -1,5 +1,5 @@
 //
-//  InviteePerspectiveOverviewViewController.swift
+//  HPOverviewViewController.swift
 //  Shindig
 //
 //  Created by Emily Koagedal on 6/20/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class InviteePerspectiveOverviewViewController: UIViewController {
+class HPOverviewViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
