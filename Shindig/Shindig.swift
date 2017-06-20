@@ -28,7 +28,7 @@ class Shindig {
         self.location = location
         self.price = price
         self.time = time
-        self.totalPool = 0.00
+        self.totalPool = 0
     }
     
     
