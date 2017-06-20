@@ -14,6 +14,7 @@
 		9240D47B1EF9225300F54FC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9240D47A1EF9225300F54FC3 /* Assets.xcassets */; };
 		9240D47E1EF9225300F54FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9240D47C1EF9225300F54FC3 /* LaunchScreen.storyboard */; };
 		9240D4861EF92DA600F54FC3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9240D4851EF92DA600F54FC3 /* GoogleService-Info.plist */; };
+		9240D4881EF9420B00F54FC3 /* Shindig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9240D4871EF9420B00F54FC3 /* Shindig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		9240D47D1EF9225300F54FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9240D47F1EF9225300F54FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9240D4851EF92DA600F54FC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9240D4871EF9420B00F54FC3 /* Shindig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shindig.swift; sourceTree = "<group>"; };
 		A68FF08A828F8AE1AA37FFC4 /* Pods_Shindig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shindig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE5B05BCCE1816641D96F01 /* Pods-Shindig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shindig.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shindig/Pods-Shindig.release.xcconfig"; sourceTree = "<group>"; };
 		F9390088347DB272ED86A611 /* Pods-Shindig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shindig.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shindig/Pods-Shindig.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				9240D4731EF9225200F54FC3 /* AppDelegate.swift */,
 				9240D4751EF9225200F54FC3 /* ViewController.swift */,
 				9240D4771EF9225300F54FC3 /* Main.storyboard */,
+				9240D4871EF9420B00F54FC3 /* Shindig.swift */,
 				9240D47A1EF9225300F54FC3 /* Assets.xcassets */,
 				9240D47C1EF9225300F54FC3 /* LaunchScreen.storyboard */,
 				9240D4851EF92DA600F54FC3 /* GoogleService-Info.plist */,
@@ -218,6 +221,7 @@
 			files = (
 				9240D4761EF9225300F54FC3 /* ViewController.swift in Sources */,
 				9240D4741EF9225200F54FC3 /* AppDelegate.swift in Sources */,
+				9240D4881EF9420B00F54FC3 /* Shindig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
